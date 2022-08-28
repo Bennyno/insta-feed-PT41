@@ -1,0 +1,71 @@
+html, body {
+	height: 100%;
+	width:100%;
+	background: #BDBDBD;
+	margin: 0;
+}
+
+.navbar.bg-light {
+	direction: flex;
+	justify-content: space-between;
+}
+
+.container-fluid {
+	margin-left: 200px;
+}
+
+
+#dropdownMenuButton {
+	margin-right: 200px;
+	color: gray;
+	background-color: transparent;
+}
+
+.navbar-brand {
+	margin-right: 1700px;
+	font-style: italic;
+	font-weight: bold;
+	color: #686868;
+}
+
+.Twobuttons {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.col-4 {
+	display: flex;
+	flex-direction: column;
+} 
+
+/*Styles for listview*/
+
+.post {
+	background: white;
+	margin-top: 10px;
+}
+
+.post h2,p {
+	padding:10px;
+	margin: 0;
+}
+
+.container-list {
+	width: 600px;
+	margin: auto;
+}
+
+ .post-header {
+	display: inline-block;
+	width: 80%;
+}
+
+.date {
+	display: inline-block;
+	width: 20%;
+	padding:10px;
+	text-align:right;
+	color: gray;
+
+}
